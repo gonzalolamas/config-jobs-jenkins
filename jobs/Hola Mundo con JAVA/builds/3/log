@@ -1,0 +1,14 @@
+Lanzada por el usuario [8mha:////4GTJ6zPBgiJYliiA+FdE7EfA+Kx3qOXtbUVwG57Z5o/VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google
+[Selenium Google] $ cmd /c call C:\WINDOWS\TEMP\jenkins17981039305650038339.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>echo public class HolaMundo { public static void main(String[] args) { System.out.println("--- ¡HOLA MUNDO DESDE JENKINS Y WINDOWS! ---"); } }  1>HolaMundo.java 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>call javac HolaMundo.java 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>call java HolaMundo 
+--- ¡HOLA MUNDO DESDE JENKINS Y WINDOWS! ---
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>exit 0 
+Finished: SUCCESS

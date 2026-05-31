@@ -1,0 +1,88 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <com.chikli.hudson.plugin.naginator.NaginatorAction plugin="naginator@1.556.v14d723a_109a_c">
+      <retryCount>2</retryCount>
+      <maxRetryCount>2</maxRetryCount>
+      <parentBuildNumber>8</parentBuildNumber>
+      <cause class="com.chikli.hudson.plugin.naginator.NaginatorCause">
+        <summary>#8</summary>
+        <sourceBuildNumber>8</sourceBuildNumber>
+      </cause>
+    </com.chikli.hudson.plugin.naginator.NaginatorAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+        <entry>
+          <com.chikli.hudson.plugin.naginator.NaginatorCause reference="../../../../com.chikli.hudson.plugin.naginator.NaginatorAction/cause"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.37-494.v06f9a_939d33a_">
+      <queuingDurationMillis>6738</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>7</buildableDurationMillis>
+      <waitingDurationMillis>6729</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.10.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.6.0">
+              <sha1>d8b9f4a47f0fe7973ff3059c04ee57acf1b5360e</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/gonzalolamas/mi-test-node-jenkins</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.chikli.hudson.plugin.naginator.NaginatorPublisherScheduleAction plugin="naginator@1.556.v14d723a_109a_c">
+      <maxSchedule>2</maxSchedule>
+      <delay class="com.chikli.hudson.plugin.naginator.FixedDelay">
+        <delay>5</delay>
+      </delay>
+      <rerunMatrixPart>false</rerunMatrixPart>
+      <regexpForRerun></regexpForRerun>
+      <rerunIfUnstable>false</rerunIfUnstable>
+      <checkRegexp>false</checkRegexp>
+      <regexpForMatrixStrategy>TestParent</regexpForMatrixStrategy>
+      <noChildStrategy>RerunWhole</noChildStrategy>
+    </com.chikli.hudson.plugin.naginator.NaginatorPublisherScheduleAction>
+  </actions>
+  <queueId>9</queueId>
+  <timestamp>1780073327311</timestamp>
+  <startTime>1780073327324</startTime>
+  <result>FAILURE</result>
+  <duration>3080</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node</workspace>
+  <hudsonVersion>2.555.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.10.1">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

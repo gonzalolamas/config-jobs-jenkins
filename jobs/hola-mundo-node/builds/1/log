@@ -1,0 +1,12 @@
+Lanzada por el usuario [8mha:////4GTJ6zPBgiJYliiA+FdE7EfA+Kx3qOXtbUVwG57Z5o/VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node
+[hola-mundo-node] $ cmd /c call C:\WINDOWS\TEMP\jenkins5949484230424390451.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>echo console.log("--- ¡HOLA MUNDO DESDE NODE.JS, JENKINS Y WINDOWS! ---");  1>app.js 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>node app.js 
+--- ¡HOLA MUNDO DESDE NODE.JS, JENKINS Y WINDOWS! ---
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>exit 0 
+Finished: SUCCESS

@@ -1,0 +1,33 @@
+Lanzada por el usuario [8mha:////4GTJ6zPBgiJYliiA+FdE7EfA+Kx3qOXtbUVwG57Z5o/VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/actions/example-services.git
+ > git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google # timeout=10
+Fetching upstream changes from https://github.com/actions/example-services.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.51.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/actions/example-services.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/actions/example-services.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 989ef69ed164330bee413f11ce9332d76f943af7 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 989ef69ed164330bee413f11ce9332d76f943af7 # timeout=10
+Commit message: "Merge pull request #27 from actions/use-new-default-branch"
+First time build. Skipping changelog.
+[Selenium Google] $ cmd /c call C:\WINDOWS\TEMP\jenkins10987007556640427398.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>cd gradle 
+El sistema no puede encontrar la ruta especificada.
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>call gradlew.bat test 
+"gradlew.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\ProgramData\Jenkins\.jenkins\workspace\Selenium Google>exit 1 
+Build step 'Ejecutar un comando de Windows' marked build as failure
+Finished: FAILURE

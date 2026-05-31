@@ -1,0 +1,11 @@
+commit d8b9f4a47f0fe7973ff3059c04ee57acf1b5360e
+tree 9fda1c407a1873dfb46bab33dad218e4b4244c1b
+parent 200ad8113a1ab5675b7a0dca2f3b1fb94e682df6
+author Gonzalo <68254067+gonzalolamas@users.noreply.github.com> 2026-05-29 13:13:22 -0300
+committer GitHub <noreply@github.com> 2026-05-29 13:13:22 -0300
+
+    Enhance Jenkinsfile with build, run, and reporting stages
+    
+    Added stages for building and running the application, including HTML report generation.
+
+:100644 100644 002fad3f74f167a66a034aa7832b463bb4c614f3 87211988b4700382e6b5ef67dc36892e30213c54 M	Jenkinsfile

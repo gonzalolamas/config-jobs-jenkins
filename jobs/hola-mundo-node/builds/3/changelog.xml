@@ -1,0 +1,9 @@
+commit 200ad8113a1ab5675b7a0dca2f3b1fb94e682df6
+tree 7a8856aa5cd40a2fbbc10894cc8cfed6c8084a7e
+parent a6fee0cc66b022a7e61f8e200e6b2ef781f40dc3
+author Gonzalo <68254067+gonzalolamas@users.noreply.github.com> 2026-05-27 14:30:00 -0300
+committer GitHub <noreply@github.com> 2026-05-27 14:30:00 -0300
+
+    Add Jenkins pipeline for dependency installation and testing
+
+:000000 100644 0000000000000000000000000000000000000000 002fad3f74f167a66a034aa7832b463bb4c614f3 A	Jenkinsfile

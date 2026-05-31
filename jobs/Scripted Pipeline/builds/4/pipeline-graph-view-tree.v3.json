@@ -1,0 +1,1 @@
+{"stages":[{"id":"6","name":"Ejemplo","children":[],"state":"failure","type":"STAGE","title":"Ejemplo","isSequential":false,"synthetic":false,"placeholder":false,"pauseDurationMillis":0,"totalDurationMillis":144,"startTimeMillis":1780079819309,"agent":"built-in","url":"/job/Scripted%20Pipeline/4/stages/?selected-node=6"}],"complete":true}

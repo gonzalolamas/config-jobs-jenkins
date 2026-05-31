@@ -1,0 +1,30 @@
+Lanzada por el usuario [8mha:////4GTJ6zPBgiJYliiA+FdE7EfA+Kx3qOXtbUVwG57Z5o/VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/gonzalolamas/mi-test-node-jenkins # timeout=10
+Fetching upstream changes from https://github.com/gonzalolamas/mi-test-node-jenkins
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.51.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/gonzalolamas/mi-test-node-jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision d8b9f4a47f0fe7973ff3059c04ee57acf1b5360e (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f d8b9f4a47f0fe7973ff3059c04ee57acf1b5360e # timeout=10
+Commit message: "Enhance Jenkinsfile with build, run, and reporting stages"
+ > git.exe rev-list --no-walk 200ad8113a1ab5675b7a0dca2f3b1fb94e682df6 # timeout=10
+[hola-mundo-node] $ cmd /c call C:\WINDOWS\TEMP\jenkins14790291195473964676.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>node app.js 
+--- ¡HOLA MUNDO DESDE MI PROPIO GITHUB Y NODE.JS! ---
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>exit 0 
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node\build\reports\app.js to HTML_20Report
+ERROR: Specified HTML directory 'C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node\build\reports\app.js' does not exist.
+Build step 'Publish HTML reports' changed build result to FAILURE
+Finished: FAILURE

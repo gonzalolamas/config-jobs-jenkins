@@ -1,0 +1,1 @@
+{"stages":[{"id":"6","name":"Otro job","children":[],"state":"success","type":"STAGE","title":"Otro job","isSequential":false,"synthetic":false,"placeholder":false,"pauseDurationMillis":0,"totalDurationMillis":12660,"startTimeMillis":1780177089769,"agent":"built-in","url":"/job/Invocar%20otros%20jobs/1/stages/?selected-node=6"}],"complete":true}

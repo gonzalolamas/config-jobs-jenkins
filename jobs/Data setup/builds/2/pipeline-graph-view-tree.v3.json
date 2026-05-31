@@ -1,0 +1,1 @@
+{"stages":[{"id":"6","name":"Creación de users","children":[],"state":"failure","type":"STAGE","title":"Creación de users","isSequential":false,"synthetic":false,"placeholder":false,"pauseDurationMillis":0,"totalDurationMillis":2839,"startTimeMillis":1780184678209,"agent":"built-in","url":"/job/Data%20setup/2/stages/?selected-node=6"}],"complete":true}

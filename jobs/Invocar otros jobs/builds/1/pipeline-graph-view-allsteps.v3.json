@@ -1,0 +1,1 @@
+{"steps":[{"id":"7","name":"Building hola-mundo-node","state":"success","type":"STEP","title":"","pauseDurationMillis":0,"totalDurationMillis":12578,"startTimeMillis":1780177089851,"stageId":"6","buildStep":{"classicUrl":"job/hola-mundo-node/11/","pipelineViewUrl":"job/hola-mundo-node/11/stages","displayName":"hola-mundo-node #11"},"flags":{}}],"runIsComplete":true}

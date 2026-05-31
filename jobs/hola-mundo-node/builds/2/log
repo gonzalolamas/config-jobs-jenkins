@@ -1,0 +1,28 @@
+Lanzada por el usuario [8mha:////4GTJ6zPBgiJYliiA+FdE7EfA+Kx3qOXtbUVwG57Z5o/VAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/gonzalolamas/mi-test-node-jenkins
+ > git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node # timeout=10
+Fetching upstream changes from https://github.com/gonzalolamas/mi-test-node-jenkins
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.51.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/gonzalolamas/mi-test-node-jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/gonzalolamas/mi-test-node-jenkins # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision a6fee0cc66b022a7e61f8e200e6b2ef781f40dc3 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f a6fee0cc66b022a7e61f8e200e6b2ef781f40dc3 # timeout=10
+Commit message: "Add greeting message to app.js"
+First time build. Skipping changelog.
+[hola-mundo-node] $ cmd /c call C:\WINDOWS\TEMP\jenkins4060229315238376256.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>node app.js 
+--- ¡HOLA MUNDO DESDE MI PROPIO GITHUB Y NODE.JS! ---
+
+C:\ProgramData\Jenkins\.jenkins\workspace\hola-mundo-node>exit 0 
+Finished: SUCCESS

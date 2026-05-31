@@ -1,0 +1,9 @@
+# Ignorar todos los historiales de compilación y logs de Jenkins
+**/builds/
+**/indexing/
+**/htmlreports/
+**/nextBuildNumber
+**/lastStable
+**/lastSuccessful
+**/permalinks
+**/log*
